@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="http://localhost/ShUrRe_2/wp-content/themes/shurre/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url');?>/css/materialize.min.css"  media="screen,projection"/>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	 <link type="text/css" rel="stylesheet" href="<?php echo bloginfo('stylesheet_url'); ?>"  media="screen,projection"/>    
 

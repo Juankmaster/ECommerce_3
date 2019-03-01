@@ -12,11 +12,11 @@ get_header();
 <div class="titulo-sitio">
     	
     	<?php if (is_category ('platos')):?>
-			<h2 style="background:#2586EC">Categoria<?php echo the_category('name');?></h2>
+			<h2 style="background:#2586EC">Subcategoria<?php echo the_category('name');?></h2>
 			<?php elseif (is_category ('regiones')):?>
-			<h2 style="background:#4CAA51">Categoria <?php echo the_category('name');?></h2>
+			<h2 style="background:#4CAA51">Subcategoria <?php echo the_category('name');?></h2>
 			<?php else:?>
-			<p><h2 style="background:##D5A44F">Categoria <?php echo the_category('name');?></h2>
+			<p><h2 style="background:##D5A44F">Subcategoria <?php echo the_category('name');?></h2>
 			<?php endif; ?>
     </div>
 
@@ -59,7 +59,7 @@ get_header();
 							<li>Etiam a nunc et enim venenatis ullamcorper eu nec ante.</li>
 							<li>Pellentesque ullamcorper augue ut orci aliquet, quis ornare erat imperdiet.</li>
 							<li>Donec nec dui ipsum. Phasellus et sapien eget felis consectetur dictum ac ut velit</li>
-							</ul>
+							</ol>
 						</div>
 						<div class="card col l12  ">
 							<h4 class="deep-purple lighten-1" >preparacion</h4>

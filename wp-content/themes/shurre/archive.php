@@ -12,11 +12,11 @@ get_header();
     <div class="titulo-sitio">
     	
     	<?php if (is_category ('platos')):?>
-			<h2 style="background:#2586EC"> Post de <?php echo the_category();?></h2>
+			<h2 style="background:#2586EC"> Post de Platos </h2>
 			<?php elseif (is_category ('regiones')):?>
-			<h2 style="background:#4CAA51"> Post de <?php echo the_category();?></h2>
+			<h2 style="background:#4CAA51"> Post de Regiones</h2>
 			<?php else:?>
-			<p><h3 style="background:##D5A44F"> Post de Categoria/SubCategoria: <?php echo the_category();?></h3>
+			<p><h3 style="background:##D5A44F"> Post de Ocasiones</h3>
 			<?php endif; ?>
     </div>
 	<div class="row">

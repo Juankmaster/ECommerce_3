@@ -55,11 +55,24 @@ get_header();
 						
 						<div class="card col l6  ">
 							<h4 class="pink" >Ingredientes</h4>
-							hola
+							<ol>
+								<li>Lorem ipsum dolor sit ametnec.</li>
+								<li>Etiam a nunc et enim venenatis ullamcorper eu nec ante.</li>
+								<li>Pellentesque ullamcorper augue ut orci aliquet, quis ornare erat imperdiet.</li>
+								<li>Donec nec dui ipsum. Phasellus et sapien eget felis consectetur dictum ac ut velit</li>
+							</ol>
 						</div>
 						<div class="card col l12  ">
 							<h4 class="deep-purple lighten-1" >preparacion</h4>
 						<?php the_content();  ?>
+						</div>
+						
+						<div class="card col s12">
+						<?php	
+						if ( comments_open() || get_comments_number() ) :
+								comments_template();
+							endif; ?>
+							
 						</div>
 
 					</div>
