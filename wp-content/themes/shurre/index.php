@@ -34,8 +34,8 @@ get_header();
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4"><?php the_title(); ?></span>
 						<p><?php the_excerpt(); ?></p><br>
-
-		<p><a class="waves-effect waves-light btn"><i class="material-icons left">local_dining</i> <?php the_category('name'); ?></a></p>
+						
+						<p><a class="waves-effect waves-light btn"><i class="material-icons left">local_dining</i> Platos</a></p>
 						<p><a class="waves-effect waves-light btn"><i class="material-icons left">label_outline</i>Ocasiones</a></p>
 						<p><a class="waves-effect waves-light btn"><i class="material-icons left">place</i>Regiones</a></p>
 
